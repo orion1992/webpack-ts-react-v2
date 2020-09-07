@@ -1,0 +1,52 @@
+{
+  "name": "webpack-ts-react-0",
+  "version": "1.0.0",
+  "description": "educational webpack-ts-react app",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.0",
+    "@types/react": "^16.9.47",
+    "@types/react-dom": "^16.9.8",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.7.0",
+    "formik": "^2.1.5",
+    "history": "^5.0.0",
+    "html-webpack-plugin": "^4.4.1",
+    "jest": "^26.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "uuid": "^8.3.0",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.5",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-webpack": "^0.12.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-notice": "^0.9.10",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --progress",
+    "build-dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "eslint": "eslint \"app/**/*.js\" \"app/**/*.tsx\"",
+    "tsc": "tsc"
+  },
+  "author": "Solovey A.A.",
+  "license": "ISC"
+}
